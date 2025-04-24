@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsgf3iy1cj7vd"]
+
+[ext_resource type="Texture2D" uid="uid://i3yvfhq53pk8" path="res://Asset/Pion_alb.jpeg" id="1_enrlx"]
+
+[node name="Pion_alb" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_enrlx")

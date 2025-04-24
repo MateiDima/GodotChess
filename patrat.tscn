@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://b5ubq4m4stdr5"]
+
+[node name="Pătrat" type="ColorRect"]
+custom_minimum_size = Vector2(95, 95)
+offset_right = 48.0
+offset_bottom = 48.0
+color = Color(1, 0.843137, 0, 1)

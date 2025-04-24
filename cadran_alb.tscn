@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkt75q4kxr7p8"]
+
+[ext_resource type="Texture2D" uid="uid://bv4oasvcunnxb" path="res://Asset/cadran_alb.png" id="1_bhflj"]
+
+[node name="cadran_alb" type="Sprite2D"]
+texture = ExtResource("1_bhflj")

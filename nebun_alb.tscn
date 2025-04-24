@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5i7opo0wjkko"]
+
+[ext_resource type="Texture2D" uid="uid://b2njvbn4crfxv" path="res://Asset/nebun_alb.jpg" id="1_te6w7"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_te6w7")

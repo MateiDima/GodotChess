@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://xdp45v64r68w"]
+
+[ext_resource type="Texture2D" uid="uid://6mjd1ho10a3h" path="res://Asset/cal_negru.jpg" id="1_ooyot"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_ooyot")

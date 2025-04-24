@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxfkk8jsqfxmd"]
+
+[ext_resource type="Texture2D" uid="uid://d04wh0jvyy1o1" path="res://Asset/pion_negru.jpg" id="1_qelx6"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_qelx6")

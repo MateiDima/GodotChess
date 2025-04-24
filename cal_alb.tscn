@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://4v5ydw026gft"]
+
+[ext_resource type="Texture2D" uid="uid://10570cvqa1mk" path="res://Asset/cal_alb.jpg" id="1_8w8x4"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_8w8x4")

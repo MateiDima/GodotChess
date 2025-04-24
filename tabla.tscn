@@ -1,0 +1,296 @@
+[gd_scene load_steps=2 format=3 uid="uid://8obda0sgowyv"]
+
+[ext_resource type="PackedScene" uid="uid://b5ubq4m4stdr5" path="res://patrat.tscn" id="1_62lvo"]
+
+[node name="Randuri" type="VBoxContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+rotation = -0.00131875
+
+[node name="Rand8" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="A8" parent="Rand8" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="B8" parent="Rand8" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="C8" parent="Rand8" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="D8" parent="Rand8" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="E8" parent="Rand8" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="F8" parent="Rand8" instance=ExtResource("1_62lvo")]
+custom_minimum_size = Vector2(95, 5)
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="G8" parent="Rand8" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0.00184107, 0.00184107, 0.00184107, 1)
+
+[node name="H8" parent="Rand8" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="Rand7" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="A7" parent="Rand7" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="B7" parent="Rand7" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="C7" parent="Rand7" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="D7" parent="Rand7" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="E7" parent="Rand7" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="F7" parent="Rand7" instance=ExtResource("1_62lvo")]
+custom_minimum_size = Vector2(95, 5)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="G7" parent="Rand7" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="H7" parent="Rand7" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Rand6" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="A6" parent="Rand6" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="B6" parent="Rand6" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="C6" parent="Rand6" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="D6" parent="Rand6" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="E6" parent="Rand6" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="F6" parent="Rand6" instance=ExtResource("1_62lvo")]
+custom_minimum_size = Vector2(95, 5)
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="G6" parent="Rand6" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="H6" parent="Rand6" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="Rand5" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="A5" parent="Rand5" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="B5" parent="Rand5" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="C5" parent="Rand5" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="D5" parent="Rand5" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="E5" parent="Rand5" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="F5" parent="Rand5" instance=ExtResource("1_62lvo")]
+custom_minimum_size = Vector2(95, 5)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="G5" parent="Rand5" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="H5" parent="Rand5" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Rand4" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="A4" parent="Rand4" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="B4" parent="Rand4" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="C4" parent="Rand4" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="D4" parent="Rand4" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="E4" parent="Rand4" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="F4" parent="Rand4" instance=ExtResource("1_62lvo")]
+custom_minimum_size = Vector2(95, 5)
+layout_mode = 2
+color = Color(0.99558, 0.99558, 0.99558, 1)
+
+[node name="G4" parent="Rand4" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="H4" parent="Rand4" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="Rand3" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="A3" parent="Rand3" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="B3" parent="Rand3" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="C3" parent="Rand3" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="D3" parent="Rand3" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="E3" parent="Rand3" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="F3" parent="Rand3" instance=ExtResource("1_62lvo")]
+custom_minimum_size = Vector2(95, 5)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="G3" parent="Rand3" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="H3" parent="Rand3" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Rand2" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="A2" parent="Rand2" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="B2" parent="Rand2" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="C2" parent="Rand2" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="D2" parent="Rand2" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="E2" parent="Rand2" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="F2" parent="Rand2" instance=ExtResource("1_62lvo")]
+custom_minimum_size = Vector2(95, 5)
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="G2" parent="Rand2" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="H2" parent="Rand2" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="Rand1" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="A1" parent="Rand1" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="B1" parent="Rand1" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="C1" parent="Rand1" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="D1" parent="Rand1" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="E1" parent="Rand1" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="F1" parent="Rand1" instance=ExtResource("1_62lvo")]
+custom_minimum_size = Vector2(95, 5)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="G1" parent="Rand1" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(1, 1, 1, 1)
+
+[node name="H1" parent="Rand1" instance=ExtResource("1_62lvo")]
+layout_mode = 2
+color = Color(0, 0, 0, 1)

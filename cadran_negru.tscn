@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwmjduf28jj5n"]
+
+[ext_resource type="Texture2D" uid="uid://ccp3ig5pgkjig" path="res://Asset/cadran_negru.png" id="1_88qgx"]
+
+[node name="cadran_negru" type="Sprite2D"]
+texture = ExtResource("1_88qgx")

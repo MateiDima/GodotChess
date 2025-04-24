@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1r5wv0y8qcgw"]
+
+[ext_resource type="Texture2D" uid="uid://b5yb77djcxgx" path="res://Asset/tura_alba.jpg" id="1_gfcgt"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_gfcgt")

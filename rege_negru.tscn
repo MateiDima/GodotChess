@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk20l6un5j1js"]
+
+[ext_resource type="Texture2D" uid="uid://b7xrp426r4xsr" path="res://Asset/rege_negru.jpg" id="1_gh37x"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_gh37x")

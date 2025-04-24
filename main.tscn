@@ -1,0 +1,43 @@
+[gd_scene load_steps=18 format=3 uid="uid://d3fe3x8i4thex"]
+
+[ext_resource type="Script" path="res://Node.gd" id="1_ox6fu"]
+[ext_resource type="PackedScene" uid="uid://dsgf3iy1cj7vd" path="res://pion_alb.tscn" id="2_xv60o"]
+[ext_resource type="PackedScene" uid="uid://dwmjduf28jj5n" path="res://cadran_negru.tscn" id="3_j77pi"]
+[ext_resource type="PackedScene" uid="uid://dkt75q4kxr7p8" path="res://cadran_alb.tscn" id="4_b62p5"]
+[ext_resource type="PackedScene" uid="uid://cxfkk8jsqfxmd" path="res://pion_negru.tscn" id="5_5yycy"]
+[ext_resource type="PackedScene" uid="uid://8obda0sgowyv" path="res://tabla.tscn" id="5_f6dqy"]
+[ext_resource type="PackedScene" uid="uid://gmt78c6d81ji" path="res://tura_neagra.tscn" id="6_yq2py"]
+[ext_resource type="PackedScene" uid="uid://xdp45v64r68w" path="res://cal_negru.tscn" id="7_j0xno"]
+[ext_resource type="PackedScene" uid="uid://cyfend41hs8ql" path="res://nebun_negru.tscn" id="8_2exk2"]
+[ext_resource type="PackedScene" uid="uid://o3bg6map6qiy" path="res://regina_neagra.tscn" id="9_0yaaj"]
+[ext_resource type="PackedScene" uid="uid://dk20l6un5j1js" path="res://rege_negru.tscn" id="10_8ujrs"]
+[ext_resource type="PackedScene" uid="uid://c1r5wv0y8qcgw" path="res://tura_alba.tscn" id="11_6mmtq"]
+[ext_resource type="PackedScene" uid="uid://4v5ydw026gft" path="res://cal_alb.tscn" id="12_0dsso"]
+[ext_resource type="PackedScene" uid="uid://c5i7opo0wjkko" path="res://nebun_alb.tscn" id="13_40iom"]
+[ext_resource type="PackedScene" uid="uid://bpd3bavr13asa" path="res://regina_alba.tscn" id="14_cfknb"]
+[ext_resource type="PackedScene" uid="uid://d2kf2x8c3ill8" path="res://rege_alb.tscn" id="15_dxfeq"]
+[ext_resource type="PackedScene" uid="uid://b8ij84rebg5qv" path="res://MeniuGameOver.tscn" id="17_4l0x0"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_ox6fu")
+pion_alb_scene = ExtResource("2_xv60o")
+pion_negru_scene = ExtResource("5_5yycy")
+cadran_negru_scene = ExtResource("3_j77pi")
+cadran_alb_scene = ExtResource("4_b62p5")
+tura_neagra_scene = ExtResource("6_yq2py")
+cal_negru_scene = ExtResource("7_j0xno")
+nebun_negru_scene = ExtResource("8_2exk2")
+regina_neagra_scene = ExtResource("9_0yaaj")
+rege_negru_scene = ExtResource("10_8ujrs")
+tura_alba_scene = ExtResource("11_6mmtq")
+cal_alb_scene = ExtResource("12_0dsso")
+nebun_alb_scene = ExtResource("13_40iom")
+regina_alba_scene = ExtResource("14_cfknb")
+rege_alb_scene = ExtResource("15_dxfeq")
+
+[node name="Randuri" parent="." instance=ExtResource("5_f6dqy")]
+
+[node name="MeniuGameOver" parent="." instance=ExtResource("17_4l0x0")]
+process_mode = 2
+
+[connection signal="restart" from="MeniuGameOver" to="." method="_on_meniu_game_over_restart"]

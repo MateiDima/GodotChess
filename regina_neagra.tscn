@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://o3bg6map6qiy"]
+
+[ext_resource type="Texture2D" uid="uid://jk5vqs731hst" path="res://Asset/regina_neagra.jpg" id="1_dof8q"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_dof8q")

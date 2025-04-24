@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2kf2x8c3ill8"]
+
+[ext_resource type="Texture2D" uid="uid://c56rajdnt8kp4" path="res://Asset/rege_alb.jpg" id="1_aso8p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_aso8p")
